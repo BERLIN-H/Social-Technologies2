@@ -263,6 +263,13 @@ video {
     position: relative;
 }
 
+.container-image:hover{
+
+
+    transform: scale(1.05);
+}
+
+
 .iphone-image {
     width: 500px;
     height: auto;
@@ -650,4 +657,13 @@ video {
 
 .creditosTexto {
     margin-left: 200px;
+}
+
+
+.HoverTest{
+
+
+    width: 80%;
+    height: 40vh;
+    background-color: red;
 }
