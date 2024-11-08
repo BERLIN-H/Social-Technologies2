@@ -322,3 +322,126 @@ video {
     font-size: 1rem;
     line-height: 1.5;
 }
+/* Estilo para el título de "Presentaciones" */
+.presentacion-titulo {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 5rem; /* Aumenta el margen superior para más separación */
+    margin-bottom: 1.5rem;
+}
+
+
+/* Contenedor de imagen y colores */
+.imag-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+/* Imagen del Samsung */
+.Samsung-image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Texto del modelo */
+.modelo-texto {
+    font-family: 'kanit', sans-serif;
+    font-size: 0.9rem;
+    color: #000000;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* Opciones de colores */
+.colors-options {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #B0B0B0;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+/* Círculos de colores */
+.colors-circles {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.colors-circles:hover {
+    transform: scale(1.2);
+}
+/* Estilo general de la sección */
+.section-contenido {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'kanit', sans-serif;
+    background-color: #14213D; /* Fondo oscuro */
+    padding: 2rem 1rem;
+    margin-top: 3rem; /* Para separarlo del contenido anterior */
+}
+
+/* Estilo para los títulos */
+.section-contenido h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.section-contenido h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Estilo de los bloques de contenido */
+.contenido-bloque {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+/* Estilo de las imágenes */
+.contenido-imagen {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+/* Estilo del texto */
+.contenido-texto {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    line-height: 1.5;
+}
+
+.subtexto {
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+/* Línea separadora */
+.separador {
+    width: 100%;
+    margin: 1.5rem auto;
+    border: 0;
+    border-top: 3px solid #ffffff;
+    opacity: 50;
+}
