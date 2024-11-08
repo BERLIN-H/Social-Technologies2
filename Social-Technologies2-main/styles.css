@@ -164,9 +164,13 @@ video {
 
 /* Section titles */
 .novedades1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     padding: 1rem;
-    text-align: left;
-    margin-left: 44%;
+ 
     font-size: 1.3rem;
     color: #ffffff;
 }
@@ -606,17 +610,43 @@ video {
 }
 
 .creditos{
+
     display: flex;
     flex-direction: row;
     background-color: #e5e5e5;
-    height: 40px;
-    padding: 40px;
+    height: 20vh;
+   
     margin-top: 80px;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.logo1{
-    text-align: center;
+.contentCreditosText{
+
+    display: flex; 
+    flex-direction: row;
+    width: 70%;
+
+    margin-left: 10% ;
+
+  
+
+    gap:5%;
 }
+
+
+.contentCreditosText .textOne{
+
+    margin-right: 5cqmax;
+}
+
+.logo1 img{
+
+    width: 70%;
+    height: auto;
+
+}
+
 
 .creditosTexto {
     margin-left: 200px;
